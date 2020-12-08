@@ -15,7 +15,7 @@ https://github.com/TecnoTalayotic/BME280-Sensor-Module
 
 #include <Adafruit_BME280.h>
 
-//Usar el interface I2C
+//Usa el interfaz I2C
 Adafruit_BME280 bme; 
 Adafruit_Sensor *bme_temp = bme.getTemperatureSensor();
 Adafruit_Sensor *bme_pressure = bme.getPressureSensor();
