@@ -1,8 +1,5 @@
-
-#include <Wire.h>
-#include <SPI.h>
-/*Sensor WindDirection
-En este programa configuraremos el sensor WindDirection
+/*Sensor BME280
+En este programa configuraremos el sensor BME280
 para leer los datos en el terminal serie. 
 Creado por Adafruit
 Modificado por TecnoTalayotic
@@ -10,8 +7,11 @@ https://www.instagram.com/tecnotalayotic
 https://www.thingiverse.com/TecnoTalayotic
 https://github.com/TecnoTalayotic
 Más información del proyecto en:
-https://github.com/TecnoTalayotic/WindDirection
+https://github.com/TecnoTalayotic/BME280-Sensor-Module
 */
+
+#include <Wire.h>
+#include <SPI.h>
 
 #include <Adafruit_BME280.h>
 
